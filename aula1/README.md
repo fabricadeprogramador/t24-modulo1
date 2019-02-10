@@ -1,8 +1,14 @@
 # Aula 1 Fábrica de Programador - T24
 
-## Objetivo
+<div style="text-align: right">09/02/2019</div>
 
-## Resumo da aula
+## Objetivo da Aula
+
+O objetivo da aula foi criar a seguinte tela de login:
+
+![Login](screen1.png)
+
+## Resumo da Aula
 
 Nesta aula conhecemos a IDE Visual Studio Code, assim como as linguagens de marcação: HTML5 e CSS3.
 
