@@ -61,6 +61,14 @@ input{
     display: none;
 }
 
+.alerta.sucesso {
+    background-color: rgb(7, 199, 84);
+}
+
+.alerta.erro {
+    background-color: rgb(210, 13, 13);
+}
+
 .alerta button {
     background-color: transparent;
     position: absolute;
