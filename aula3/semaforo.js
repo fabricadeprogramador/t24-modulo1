@@ -9,17 +9,11 @@ function verificar() {
     
     if(sinal == "vermelho") {
         alert("Pare!")
-    } 
-
-    if(sinal == "amarelo"){
+    } else if(sinal == "amarelo"){
         alert("Corre!")
-    }
-
-    if(sinal == "verde"){
+    } else if(sinal == "verde"){
         alert("De boa!")
-    }
-
-    if(sinal == ""){
+    } else {
         alert("Aí fica difícil! Seleciona algo aí")
     }
 }
