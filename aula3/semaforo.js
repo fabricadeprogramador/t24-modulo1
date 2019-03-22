@@ -1,6 +1,11 @@
 
 function verificar() {
-    let sinal = document.querySelector("input[type=radio]:checked").value
+    let selecionado = document.querySelector("input[type=radio]:checked")
+    let sinal = ""
+
+    if(selecionado != null){
+        sinal = selecionado.value
+    }
     
     if(sinal == "vermelho") {
         alert("Pare!")
@@ -12,5 +17,9 @@ function verificar() {
 
     if(sinal == "verde"){
         alert("De boa!")
+    }
+
+    if(sinal == ""){
+        alert("Aí fica difícil! Seleciona algo aí")
     }
 }
