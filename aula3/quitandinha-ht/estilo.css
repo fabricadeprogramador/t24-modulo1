@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.capa {
+    height: 500px;
+    background-image: url(imagens/fundo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.capa .titulo {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 50pt;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    line-height: 500px;
+    text-shadow: 0px 1px 10px rgba(0, 0, 0, .3);
+    text-transform: uppercase;
+}
+
+.navbar {
+    width: 100%;
+    height: 64px;
+    background-color: rgb(94, 234, 143);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, .3);
+}
+
+.navbar ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar li {
+    line-height: 64px;
+    padding: 0px 30px;
+    color: rgb(54, 54, 54);
+}
+
+.right {
+    float: right;
+}
+
+.frutas {
+    padding: 40px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-fruta {
+    height: 200px;
+    width: 190px;
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, .3);
+    position: relative;
+    transition: .5s;
+}
+
+.card-fruta:hover {
+    transform: scale(1.1);
+}
+
+.card-fruta:active {
+    transform: scale(1);
+}
+
+.card-fruta img {
+    height: 200px;
+    width: auto;
+}
+
+.card-fruta .hover {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    display: none;
+}
+
+.card-fruta:hover .hover {
+    display: block;
+}
+
+.card-fruta .hover img {
+    display: block;
+    width: 70%;
+    margin: auto;
+}
