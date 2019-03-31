@@ -22,21 +22,6 @@
     box-shadow: 0px 1px 10px rgba(0,0,0,.3);
 }
 
-.form-semaforo input {
-    width: 60%;
-    margin-bottom: 20px;
-    cursor: pointer;
-    color: white;
-}
-
-.form-semaforo label {
-    width: 30%;
-    display: inline-block;
-    text-align: left;
-    cursor: pointer;
-    color: white;
-}
-
 .form-semaforo button {
     padding: 10px 20px;
     border: none;
@@ -59,4 +44,18 @@
     display: block;
     margin: auto;
     margin-top: 100px
+}
+
+.form-semaforo .opcao label{
+    display: inline-block;
+    width: 16%;
+    text-align: right;
+    cursor: pointer;
+    color: white;
+}
+
+.form-semaforo .opcao input {
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: white;
 }
