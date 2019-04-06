@@ -9,12 +9,13 @@ function verificar() {
     }
 
     if (selecionado == "vermelho") {
-        alert("Pare! Agora...")
+        // alert("Pare! Agora...")
+        document.querySelector(".img-semaforo").src = "img/vermelho.svg"
     } else if (selecionado == "amarelo") {
-        alert("Run!")
+        // alert("Run!")
     } else if (selecionado == "verde") {
-        alert("Vai tranquilo!")
+        // alert("Vai tranquilo!")
     } else {
-        alert("Só pode estar quebrado!")
+        // alert("Só pode estar quebrado!")
     }
 }

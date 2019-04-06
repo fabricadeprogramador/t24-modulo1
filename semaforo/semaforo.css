@@ -8,7 +8,7 @@
 .form-semaforo {
     background: linear-gradient(to right bottom, blue, purple, red);
     width: 40%;
-    margin: 100px auto;
+    margin: 0px auto;
     padding: 40px 20px;
     border-radius: 5px;
     color: white;
@@ -54,4 +54,12 @@
 
 button:focus {
     outline: 0;
+}
+
+/* CSS DA IMAGEM DO SEMAFORO */
+
+.img-semaforo {
+    width: 200px;
+    display: block;
+    margin: 40px auto;
 }
