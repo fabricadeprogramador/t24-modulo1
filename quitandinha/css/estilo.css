@@ -1,0 +1,16 @@
+.navbar {
+    width: 100%;
+    /* background-color: rgb(56, 175, 82); */
+    background: linear-gradient(to right bottom, rgb(56, 175, 82) 50%, rgb(27, 134, 50));
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 60px;
+}
+
+.navbar img {
+    height: 40px;
+    width: auto;
+    margin: 0px 10px;
+}
