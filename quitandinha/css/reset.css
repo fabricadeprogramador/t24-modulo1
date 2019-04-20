@@ -4,3 +4,7 @@
     padding: 0px;
     font-family: sans-serif;
 }
+
+a {
+    text-decoration: none;
+}

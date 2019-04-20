@@ -8,6 +8,7 @@
     <title>Quitandinha HT</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -20,7 +21,9 @@
             </div>
             <div>
                 <img src="img/avatar.svg" alt="Ícone de usuário">
-                <img src="img/basket.svg" alt="Ícone de cesta de compras">
+                <a href="cestinha.html">
+                    <img src="img/basket.svg" alt="Ícone de cesta de compras">
+                </a>
             </div>
         </nav>
         <section class="topo">
@@ -32,22 +35,22 @@
     </header>
     <main>
         <section class="produtos">
-            <div>
+            <div onclick="adicionarCesta('Banana')">
                 <img src="img/banana.jpg" alt="Banana">
             </div>
-            <div>
+            <div onclick="adicionarCesta('Kiwi')">
                 <img src="img/kiwi.jpg" alt="Kiwi">
             </div>
-            <div>
+            <div onclick="adicionarCesta('Pitaya')">
                 <img src="img/pitaya.jpg" alt="Pitaya">
             </div>
-            <div>
+            <div onclick="adicionarCesta('Laranja')">
                 <img src="img/laranja.jpg" alt="Laranja">
             </div>
-            <div>
+            <div onclick="adicionarCesta('Maça')">
                 <img src="img/maca.jpg" alt="Maca">
             </div>
-            <div>
+            <div onclick="adicionarCesta('Tomate')">
                 <img src="img/tomate.jpg" alt="Tomate">
             </div>
         </section>
