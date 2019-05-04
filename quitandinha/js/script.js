@@ -14,6 +14,15 @@ function carregarCesta() {
     quantidadeCesta = cesta.length
     // atualizar número na tela
     // pegar o span
-    document.getElementById("quantidadeCesta").innerHTML = quantidadeCesta
     // atualizar valor do span
+    if (document.getElementById("quantidadeCesta") != null) {
+        document.getElementById("quantidadeCesta").innerHTML = quantidadeCesta
+    }
+}
+
+function listarCesta() {
+    carregarCesta()
+    for (let i = 0; i < cesta.length; i++) {
+        alert(cesta[i])
+    }
 }
